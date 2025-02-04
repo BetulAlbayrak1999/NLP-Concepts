@@ -47,3 +47,41 @@ pattern ='FY\d{4} Q[1-4]'
 matches= re.findall(pattern, text, flags= re.IGNORECASE)
 print(matches)
 print('#'*50)
+
+## Extract only financial numbers
+text= '''
+Tesla's gross cost of operating lease vehicles in FY2021 Q1 was $4.85 billion. 
+In previous quarter i.e. FY2020 Q4 it was $3 billion.
+'''
+
+pattern= '\$([1-9\.]*)'
+matches= re.findall(pattern, text)
+print(matches)
+print('#'*50)
+
+## Extract periods and Financial numbers both
+text= '''
+Tesla's gross cost of operating lease vehicles in FY2021 Q1 was $4.85 billion. 
+In previous quarter i.e. FY2020 Q4 it was $3 billion.
+'''
+
+pattern= 'FY(\d{4} Q[1-4])[^\$]*\$([1-9\.]*)'
+matches= re.findall(pattern, text)
+matches_using_search= re.search(pattern, text)
+print(matches)
+print(matches_using_search) # gets the first matching result
+print('#'*50)
+
+# Extract all twitter handles from following text
+text= '''
+Follow our leader Elon musk on twitter here: https://twitter.com/elonmusk, more information 
+on Tesla's products can be found at https://www.tesla.com/. Also here are leading influencers 
+for tesla related news,
+https://twitter.com/teslarati
+https://twitter.com/dummy_tesla
+https://twitter.com/dummy_2_tesla
+'''
+pattern= 'https:\/\/twitter\.com\/([A-Za-z0-9_]*)'
+matches= re.findall(pattern, text)
+print(matches)
+print('#'*50)
