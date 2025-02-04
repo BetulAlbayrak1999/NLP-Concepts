@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69c8d52c-53de-4f81-8541-0710de973860" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tokenization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StopWords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.StopWords.executor": "Run",
     "Python.Tokenization.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -87,7 +89,7 @@
       <updated>1738614787059</updated>
       <workItem from="1738614788327" duration="1278000" />
       <workItem from="1738617164068" duration="1488000" />
-      <workItem from="1738663323064" duration="64000" />
+      <workItem from="1738663323064" duration="2406000" />
     </task>
     <servers />
   </component>
@@ -96,6 +98,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NLP_Concepts$main.coverage" NAME="Tokenization Coverage Results" MODIFIED="1738616805297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NLP_Concepts$Tokenization.coverage" NAME="Tokenization Coverage Results" MODIFIED="1738662472751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP_Concepts$StopWords.coverage" NAME="StopWords Coverage Results" MODIFIED="1738669259169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP_Concepts$Tokenization.coverage" NAME="Tokenization Coverage Results" MODIFIED="1738663752309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
