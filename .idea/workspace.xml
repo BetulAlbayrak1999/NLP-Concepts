@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69c8d52c-53de-4f81-8541-0710de973860" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Stemming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lemmatization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <updated>1738614787059</updated>
       <workItem from="1738614788327" duration="1278000" />
       <workItem from="1738617164068" duration="1488000" />
-      <workItem from="1738663323064" duration="2783000" />
+      <workItem from="1738663323064" duration="3376000" />
     </task>
     <servers />
   </component>
