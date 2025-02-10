@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69c8d52c-53de-4f81-8541-0710de973860" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BagOfWords-BOW.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BagOfNgrams-BOW.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.BagOfNgrams-BOW.executor": "Run",
     "Python.BagOfWords-BOW.executor": "Debug",
     "Python.Lemmatization.executor": "Run",
     "Python.NamedEntityRecognition2.executor": "Debug",
@@ -98,7 +99,7 @@
       <workItem from="1738614788327" duration="1278000" />
       <workItem from="1738617164068" duration="1488000" />
       <workItem from="1738663323064" duration="13720000" />
-      <workItem from="1738694024763" duration="5840000" />
+      <workItem from="1738694024763" duration="7680000" />
     </task>
     <servers />
   </component>
@@ -128,15 +129,16 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NLP_Concepts$main.coverage" NAME="Tokenization Coverage Results" MODIFIED="1738616805297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP_Concepts$BagOfWords_BOW.coverage" NAME="BagOfWords-BOW Coverage Results" MODIFIED="1738750789361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP_Concepts$NamedEntityRecognition2.coverage" NAME="NamedEntityRecognition2 Coverage Results" MODIFIED="1738746828283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Concepts$regularExpression.coverage" NAME="regularExpression Coverage Results" MODIFIED="1738676880058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Concepts$StopWords.coverage" NAME="StopWords Coverage Results" MODIFIED="1738669259169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Concepts$Stemming.coverage" NAME="Stemming Coverage Results" MODIFIED="1738669643725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NLP_Concepts$BagOfWords_BOW.coverage" NAME="BagOfWords-BOW Coverage Results" MODIFIED="1738750789361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP_Concepts$BagOfNgrams_BOW.coverage" NAME="BagOfNgrams-BOW Coverage Results" MODIFIED="1738766585348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Concepts$re.coverage" NAME="re Coverage Results" MODIFIED="1738671757622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Concepts$Lemmatization.coverage" NAME="Lemmatization Coverage Results" MODIFIED="1738670331590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Concepts$PartOfSpeechTagging2.coverage" NAME="PartOfSpeechTagging2 Coverage Results" MODIFIED="1738688403780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Concepts$PartOfSpeechTagging.coverage" NAME="PartOfSpeechTagging Coverage Results" MODIFIED="1738694047594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NLP_Concepts$Tokenization.coverage" NAME="Tokenization Coverage Results" MODIFIED="1738663752309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NLP_Concepts$NamedEntityRecognition2.coverage" NAME="NamedEntityRecognition2 Coverage Results" MODIFIED="1738746828283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
